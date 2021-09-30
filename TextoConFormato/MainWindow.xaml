@@ -10,7 +10,7 @@
     <Grid>
 
         <Rectangle Fill="#FFE3EE7A" HorizontalAlignment="Left" Height="50" Margin="105,251,0,0" Stroke="Black" VerticalAlignment="Top" Width="602"/>
-        <TextBlock x:Name="mostrarTextoTextBlock" HorizontalAlignment="Left" TextAlignment="Center" FontSize="17px" Margin="172,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="493"/>
+        <TextBlock x:Name="mostrarTextoTextBlock" HorizontalAlignment="Left" TextAlignment="Center" FontSize="17px" Margin="172,262,0,0" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" Text="" VerticalAlignment="Top" Height="26" Width="493"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="74,86,0,0" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top"/>
         <TextBox x:Name="textoIntroducidoTextBlock" HorizontalAlignment="Left" Height="67" Margin="74,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" TextChanged="textoIntroducidoTextBlock_TextChanged"/>

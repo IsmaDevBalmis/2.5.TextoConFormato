@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextoConFormato"
         mc:Ignorable="d"
-        Title="Texto con formato" Height="450" Width="800">
+        Title="Texto con formato" Height="450" Width="800"
+        Icon="assets/notes_pages.ico">
     <Grid>
+
+        <Rectangle Fill="#FFE3EE7A" HorizontalAlignment="Left" Height="50" Margin="105,251,0,0" Stroke="Black" VerticalAlignment="Top" Width="602"/>
+        <TextBlock x:Name="mostrarTextoTextBlock" HorizontalAlignment="Left" TextAlignment="Center" FontSize="17px" Margin="172,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="493"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="74,86,0,0" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top"/>
+        <TextBox x:Name="textoIntroducidoTextBlock" HorizontalAlignment="Left" Height="67" Margin="74,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" TextChanged="textoIntroducidoTextBlock_TextChanged"/>
         
+        
+        <CheckBox x:Name="negritaCheckBox" Content="Negrita" FontWeight="Bold" HorizontalAlignment="Left" Margin="299,90,0,0" VerticalAlignment="Top" Checked="negritaCheckBox_Checked" Unchecked="negritaCheckBox_Unchecked"/>
+        <CheckBox x:Name="cursivaCheckBox" Content="Cursiva" FontStyle="Italic" HorizontalAlignment="Left" Margin="389,90,0,0" VerticalAlignment="Top" Checked="cursivaCheckBox_Checked" Unchecked="cursivaCheckBox_Unchecked"/>
+        
+        
+        <TextBlock HorizontalAlignment="Left" Margin="509,92,0,0" TextWrapping="Wrap" Text="Color del texto" VerticalAlignment="Top"/>
+        
+        
+        <RadioButton x:Name="colorAzulRadioButton" Content="Azul" GroupName="color" IsChecked="True" HorizontalAlignment="Left" Margin="623,78,0,0" VerticalAlignment="Top" Checked="colorAzulRadioButton_Checked"/>
+        <RadioButton x:Name="colorRojoRadioButton" Content="Rojo" GroupName="color" HorizontalAlignment="Left" Margin="623,98,0,0" VerticalAlignment="Top" Checked="colorRojoRadioButton_Checked"/>
+        <RadioButton x:Name="colorVerdeRadioButton" Content="Verde" GroupName="color" HorizontalAlignment="Left" Margin="623,118,0,0" VerticalAlignment="Top" Checked="colorVerdeRadioButton_Checked"/>
+        
+        
+        
+
+
+
+
+
     </Grid>
 </Window>
